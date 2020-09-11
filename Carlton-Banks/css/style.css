@@ -1,0 +1,32 @@
+.kop {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+
+.tekst-zelf {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 20px 0px 20px;
+}
+
+.header {
+    padding: 100px;
+    background: #ed6b71;
+    margin: -10px -10px 50px -10px;
+  }
+
+.footer {
+    padding: 100px;
+    background: #1e2021;
+    margin: 50px -10px -10px -10px;
+}
+
+.text-body {
+    width: 35vw;
+    background-color: #d9d8d7;
+    margin: 0 auto;
+    padding: 0 30px 400px 30px;
+    border: 5px solid #88888a;
+}
