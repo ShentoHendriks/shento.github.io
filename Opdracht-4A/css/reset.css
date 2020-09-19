@@ -29,7 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	position: relative;
 	line-height: 1;
+	height: 1498px;
+    width: 1366px;
 }
 ol, ul {
 	list-style: none;
@@ -48,6 +51,7 @@ table {
 }
 
 header {
+	position: relative;
 	background: red;
 	height: 150px;
 	width: 1366px;
@@ -57,8 +61,8 @@ header {
 	position: relative;
 	width: 214px;
 	height: 214px;
-	margin-left: 114px;
-	margin-top: -107px;
+	left: 114px;
+	top: -107px; /* de height header (150px) - y-afstand van blauwblok tot top pagina (43px)  */
 	background: blue;
 }
 
@@ -66,18 +70,19 @@ header {
 	position: absolute;
 	height: 60px;
 	width: 60px;
-	margin-left: 134px;
-	margin-top: 134px;
+	left: 134px;
+	top: 134px;
 	background: red;
 }
 
 .grijsblok {
-	margin-left: 345px;
-	margin-right: 422px;
+	position: relative;
+	left: 345px;
+	right: 422px;
+	top: -214px; /* height blauwblok */
 	background: lightgray;
 	height: 1348px;
 	width: 599px;
-	margin-top: -107px;
 }
 
 footer {
@@ -85,14 +90,23 @@ footer {
 	background-color: black;
 	width: 1366px;
 	height: 100px;
-	top: 1400px;
+	bottom: 0;
 }
 
 .groen {
 	position: absolute;
-	top: 1244px;
-	left: 1038px;
+	right: 114px;
+	bottom: 40px;
 	height: 214px;
 	width: 214px;
 	background: #00FF00;
+}
+
+.roodingroen {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background: red;
+	width: 60px;
+	height: 60px;
 }
