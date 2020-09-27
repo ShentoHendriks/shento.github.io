@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(90deg, rgba(251,202,243,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+h1,
+h2 {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 1em 0 1em 0;
+    font-weight: bolder;
+    padding-top: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 3em;
+    line-height: calc(1em*1.5);
+    text-align: justify;
+}
+
+.gridWrap {
+    max-width: 60em;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.grid-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#stones {
+    float: left;
+    margin: 2em;
+}
